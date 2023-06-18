@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.blogTypes {
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+  box-sizing: border-box;
+  height: 4rem;
+}
+.blogTypes .type {
+  border: 1px solid black;
+  margin-right: 2rem;
+  background-color: blue;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.type:hover {
+  background-color: burlywood;
+  cursor: pointer;
+}
+.sorter {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+@media screen and (max-width: 600px) {
+  .blogTypes {
+    background-color: lightgreen;
+    white-space: nowrap;
+    overflow-x: scroll;
+  }
+}
