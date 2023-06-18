@@ -1,0 +1,36 @@
+.container {
+  margin-top: 1rem;
+  background-color: white;
+  max-width: 20rem;
+  height: 12rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.diamond {
+  color: green;
+  background-color: rgb(189, 215, 189);
+  width: 2rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+.circle {
+  position: relative;
+  margin-top: 12%;
+}
+.title {
+  margin: 1rem;
+  font-size: larger;
+}
+
+.desc {
+  margin: 1rem;
+  font-size: larger;
+  color: rgb(89, 97, 97);
+}
+
+.count {
+  margin: 1rem;
+}

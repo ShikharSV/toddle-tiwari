@@ -1,0 +1,97 @@
+.headerContainer {
+  background-position: "center";
+  background-size: "cover";
+  z-index: 0;
+}
+.headerContainer:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 0;
+  max-height: 13.5rem;
+}
+
+.navContainer {
+  width: 100%;
+  height: 6rem;
+  font-family: "Brava";
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(222, 225, 227);
+}
+
+.navContainer .logo {
+  height: 100%;
+  max-width: 5rem;
+  margin-left: 2rem;
+  z-index: 1;
+}
+.navContainer .menuButtons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.menuButtons .searchMenuButton {
+  scale: 1.5;
+  margin-right: 5rem;
+}
+.menuButtons .auth {
+  margin-right: 2rem;
+  box-sizing: border-box;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  z-index: 1;
+}
+
+.auth:hover {
+  background-color: rgb(218, 221, 223);
+  cursor: pointer;
+}
+
+.searchMenuButton:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.menuButtons .sunnyMenuButton {
+  scale: 1.5;
+  margin-right: 5rem;
+}
+.sunnyMenuButton:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.menuButtons .sidebarMenuButton {
+  scale: 1.5;
+  margin-right: 5rem;
+}
+.sidebarMenuButton:hover {
+  cursor: pointer;
+  color: blue;
+}
+.sloganContainer {
+  width: 100%;
+  height: 7.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.slogan {
+  width: 100%;
+  text-align: center;
+  font-family: "Brava";
+}
+.slogan h1 {
+  color: rgb(18, 23, 26);
+  font-weight: 600;
+  line-height: 3.25;
+  letter-spacing: 0;
+}

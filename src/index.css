@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Brava"; /*Can be any text*/
+  src: local("Brava Slab Bold"),
+    url("./font/Brava Slab Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Genera"; /*Can be any text*/
+  src: local("Genera-AltLight"),
+    url("./font/Genera-AltLight.woff") format(".woff");
+}

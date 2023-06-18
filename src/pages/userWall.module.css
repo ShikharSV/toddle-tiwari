@@ -1,0 +1,11 @@
+.body {
+  background-color: rgb(234, 237, 241);
+  height: 100vh !important;
+}
+.container {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
